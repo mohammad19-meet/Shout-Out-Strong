@@ -1,0 +1,38 @@
+body{
+	background-image: url("black.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size:100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.card{
+	height: 150px;
+	width: 700px;
+	margin:20px;
+	margin-left:300px;
+}
+.btn{
+	margin-bottom: 30px;
+}
+.card-title{
+	text-align: center;
+}
+.card-text{
+	text-align: center;
+}
+.btn{
+	position: absolute;
+	left:320px;
+}
+#text{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+#title{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+#head{
+	background-image: url("grey1.jpg");
+}
