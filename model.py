@@ -13,8 +13,6 @@ class Product(Base):
     color=Column(String)
     picture=Column(String)
     price=Column(Integer)
-    tag=Column(String)
-    amount_av=Column(Integer)
     info=Column(String)
 
 

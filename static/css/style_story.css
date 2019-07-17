@@ -31,6 +31,10 @@ h1{
 a{
 	color:black;
 	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 25px;
+	width: 200px;
+
 
 }
 a:hover{
@@ -50,7 +54,6 @@ a:hover{
 }
 #link:hover{
 	background-color:#BEBEBE;
-
 }
 i {
   border: solid black;
@@ -75,4 +78,11 @@ i {
   background-color: black;
   border-radius: 50%;
   display: inline-block;
+}
+#des{
+	background-color:lightblue;
+	text-align: center;
+	width:600px;
+	padding: 30px;
+	margin-left: 330px;
 }

@@ -28,7 +28,7 @@ body{
       dodgerblue, 
       rgba(0, 0, 0, 0)
     ) 1 100%;
-	margin-top:50px;
+	margin-top:90px;
 	margin-right: 480px;
 	margin-left: 480px;
 	font-size: 30px;
@@ -48,5 +48,8 @@ body{
 	margin-top: 50px;
 }
 .row{
+	margin-top: 30px;
+}
+#story{
 	margin-top: 30px;
 }

@@ -1,0 +1,28 @@
+body{
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #C9EDFC;
+}
+#us{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 25px;
+}
+p{
+	font-size:20px;
+}
+h1{
+	text-align: center;
+}
+h3{
+	margin-top:25px;
+	border-bottom: 6px solid white;
+}
+h2{
+	text-align: center;
+	margin-top:30px;
+}
+.card{
+	margin-top: 20px;
+}

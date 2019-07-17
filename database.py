@@ -65,9 +65,23 @@ def get_all_id():
         ids.append(i.id)
     return ids
 
+def get_all_products():
+    products = session.query(Product).all()
+    return products
+
+def add_product(name, color, picture, price, info):
+    user_product= Product(name=name, color=color, picture=picture, price=price, info=info)
+    session.add(user_product)
+    session.commit()
+
+def get_product_id(id):
+    product=session.query(Product).filter_by(id=id).first()
+    return product
 
 
-# add_user("user", "pass", 0)
+
+#add_user("user", "pass", 0)
 #add_user("shelly", 1234,0)
 #add_story("hey", "story 1", "so i was going to buy something but then from nowhere somebody")
 #add_event("event 1", "4:30", "4.6", "Tel Aviv", "bla bla bla", "sexual.jpg")
+#add_product("shirt", "red", "sexual.jpg", 24, "bla bla bla")

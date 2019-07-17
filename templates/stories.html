@@ -20,7 +20,11 @@
 <body id="body1">
 	<div id="title">
 	<h1>Stories</h1>
-	<p>there are stories......</p>
+    <div id="des">
+	<p > One of the most important and effective features of our website is the stories.
+The intention of this feature is to establish a safe platform where victims of sexual assault are able to share their stories not only to inspire each other, but to feel accepted and supported by their community. 
+</p>
+</div>
 	<a href=submit class="btn btn-outline-light">To add a story click here</a>
 </div>
     <div class="row">
@@ -35,7 +39,7 @@
         <div class="card-body">
         <p class="card-text">{{story.summary}}</p>
         <div id="link">
-        <a href="/story/{{story.id}}" >read more <i class="arrow right"></i></a>
+        <a id="a" href="/story/{{story.id}}" >read more <i class="arrow right"></i></a>
     </div>
         </div>
     </div>

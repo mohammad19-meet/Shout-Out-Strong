@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect, request, session, flash
-from database import auth_user, add_user, add_story, story_by_name, get_all_stories, get_story_id, get_all_events, get_event_id
+from database import get_product_id, get_all_products,auth_user, add_user, add_story, story_by_name, get_all_stories, get_story_id, get_all_events, get_event_id
 app = Flask(__name__)
 app.secret_key = "jrg;quoeiohqei833y2y8h"
 
@@ -37,20 +37,19 @@ def event(id):
 	event=get_event_id(id)
 	return render_template("event.html", event=event)
 
-@app.route("/submit", methods=['GET', 'POST'])
+@app.route("/submit")
 def submit():
-	if request.method == 'GET':
 		return render_template ("submit.html")
-	else:
-		title= request.form['title']
-		story= request.form['story']
-		name="gorge"
-		add_story(name,title,story)
-		return redirect(url_for("/"))
 
+@app.route("/store")
+def store():
+	products=get_all_products()
+	return render_template("store.html", products=products)
 
-
-
-
+@app.route("/product/<int:id>")
+def product(id):
+	product=get_product_id(id)
+	return render_template("product.html", product=product)
+	
 if __name__ == '__main__':
     app.run(debug=True)
