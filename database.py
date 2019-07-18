@@ -85,6 +85,7 @@ def get_product_id(id):
 #add_story("hey", "story 1", "so i was going to buy something but then from nowhere somebody")
 #add_event("event 1", "4:30", "4.6", "Tel Aviv", "bla bla bla", "sexual.jpg")
 #add_story("shelly", "story #1", "I was very young when I was sexually abused by someone known to my family. Looking back, it feels like I lost my childhood. After the abuse, I started isolating myself from my family and friends and had problems sleeping with night terrors. I used to find it difficult to concentrate in school and had problems remembering stuff. To cope I used to self-harm. I was worried that no one would believe me.")
+#add_story("shelly", "story #2", "When I was 14, a normal encounter with my uncle suddenly turned abusive. I took steps to prevent the pain, but a part of me thought that was how he loved me. The abuse continued over the next four years. It took time for me to heal from the experience and become comfortable disclosing what happened. Today I proudly share my story to remind survivors of sexual assault, especially men and boys, that they are not alone.")
 #add_product("sack bag", "black", "bag1.jpeg", 20, "100% polister")
 #add_product("pin", "black", "black_pin.png", 10, "metal")
 #add_product("hoddie", "blue", "hoodie.jpg", 50, "100%  cotton")

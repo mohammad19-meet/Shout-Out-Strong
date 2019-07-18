@@ -22,6 +22,20 @@
     <h2>{{story.title}}</h2>
     <span class="dot"></span>
     <p>{{story.the_story}}</p>
+    <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="/story/{{p}}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/story/{{n}}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
     
 </div>
 </body>

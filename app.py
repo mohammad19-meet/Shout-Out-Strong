@@ -25,7 +25,15 @@ def stories():
 @app.route("/story/<int:id>")
 def story(id):
 	story=get_story_id(id)
-	return render_template("story.html", story=story)
+	ids=get_all_id()
+	n=id+1
+	p=id-1
+	if id==ids[-1]:
+		n=1
+	if id==1:
+		p=ids[-1]
+
+	return render_template("story.html", story=story, n=n, p=p)
 
 @app.route("/events")
 def events():
