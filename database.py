@@ -78,6 +78,13 @@ def get_product_id(id):
     product=session.query(Product).filter_by(id=id).first()
     return product
 
+def get_more_product(id):
+    p=get_all_products()
+    for i in p:
+        if i.id==id:
+            p.remove(i)
+    return p
+
 
 
 #add_user("user", "pass", 0)

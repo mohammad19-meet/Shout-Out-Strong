@@ -1,0 +1,11 @@
+body{
+	background-color: #fff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.col-sm{
+	margin: 30px;
+}
+.card{
+	width: 250px;
+	height:30px;
+}

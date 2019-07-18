@@ -57,7 +57,9 @@ def store():
 @app.route("/product/<int:id>")
 def product(id):
 	product=get_product_id(id)
-	return render_template("product.html", product=product)
+	more=get_more_product(id)
+	more=more[0:3]
+	return render_template("product.html", product=product, more=more)
 	
 if __name__ == '__main__':
     app.run(debug=True)
