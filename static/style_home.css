@@ -31,7 +31,7 @@ body{
 	margin-top:90px;
 	margin-right: 480px;
 	margin-left: 480px;
-	font-size: 30px;
+	font-size: 28px;
 }
 .imgs{
 	height: 280px;
@@ -46,10 +46,12 @@ body{
 .text{
 	text-align: center;
 	margin-top: 50px;
+	font-size: 30px;
 }
 .row{
 	margin-top: 30px;
 }
 #story{
 	margin-top: 30px;
+
 }

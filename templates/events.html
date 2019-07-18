@@ -12,22 +12,8 @@
 </title>
 </head>
 <body>
-		<p class=title1>Our Events<p>
-		<div class=row>
-			{% for event in events%}
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="{{url_for('static', filename='images/sexual.jpg')}}">
-        <div class="card-body">
-        <h5 class="card-title">{{event.name}}</h5>
-        <p class="card-text">{{event.place}}, {{event.time}}, {{event.date}}, {{event.info}}</p>
-        <a href="/event/{{event.id}}">read more</a>
-        </div>
-    </div>
-  </div>
-			{% endfor%}
+		<p>As inspiration is one of our core values, we can achieve this through several ways such as creating and giving lectures in schools. The objective of this feature is to raise awareness and educate students about this topic. </p>
 
-		</div>
 
 </body>
 

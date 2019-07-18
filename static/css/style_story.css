@@ -71,6 +71,7 @@ i {
 	background-color:lightgrey;
 	padding: 40px;
 	margin: 50px;
+	font-size:20px;
 }
 .dot {
   height: 10px;
@@ -80,7 +81,8 @@ i {
   display: inline-block;
 }
 #des{
-	background-color:lightblue;
+	background-color:white;
+	border-style: double;
 	text-align: center;
 	width:600px;
 	padding: 30px;

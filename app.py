@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect, request, session, flash
-from database import get_product_id, get_all_products,auth_user, add_user, add_story, story_by_name, get_all_stories, get_story_id, get_all_events, get_event_id
+from database import *
 app = Flask(__name__)
 app.secret_key = "jrg;quoeiohqei833y2y8h"
 
