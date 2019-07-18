@@ -1,0 +1,20 @@
+body{
+	background-color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#title{
+	text-align: center;
+	color:white;
+	font-size: 40px;
+}
+#title1{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+}
+.card{
+	margin:10px;
+}
+a{
+	font-size: 20px;
+}

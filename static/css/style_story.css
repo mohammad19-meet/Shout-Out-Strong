@@ -1,0 +1,90 @@
+body{
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#body1{
+	background-color: #599dc0;
+}
+#body2{
+	background-image: url("black.jpg");
+}
+.card{
+	width:450px;
+	height: 300px;
+	margin-left:150px;
+	margin-top: 50px;
+	text-align: center;
+}
+.card-header{
+	background-color: #BEBEBE;
+	height: 90px;
+	text-align: center;
+	font-size: 40px;
+
+}
+#title{
+	text-align: center;
+}
+h1{
+	color: white;
+}
+a{
+	color:black;
+	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 25px;
+	width: 200px;
+
+
+}
+a:hover{
+	text-decoration: none;
+	color:black;
+
+}
+#link{
+	margin-top: 20px;
+	margin-left:130px;
+	text-align: center;
+	width: 150px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 25px;
+
+}
+#link:hover{
+	background-color:#BEBEBE;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+#content{
+	text-align: center;
+	background-color:lightgrey;
+	padding: 40px;
+	margin: 50px;
+	font-size:20px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#des{
+	background-color:white;
+	border-style: double;
+	text-align: center;
+	width:600px;
+	padding: 30px;
+	margin-left: 330px;
+}
